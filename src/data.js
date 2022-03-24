@@ -1,0 +1,112 @@
+export const salesAnalyticsData = [
+    {
+        name: 'January',
+        visits: 4000,
+        orders: 2400,
+    },
+    {
+        name: 'Febuary',
+        visits: 3000,
+        orders: 1398,
+    },
+    {
+        name: 'March',
+        visits: 5000,
+        orders: 9800,
+    },
+    {
+        name: 'April',
+        visits: 2780,
+        orders: 3908,
+    },
+    {
+        name: 'May',
+        visits: 1890,
+        orders: 4800,
+    },
+    {
+        name: 'June',
+        visits: 2390,
+        orders: 3800,
+    },
+    {
+        name: 'July',
+        visits: 3490,
+        orders: 4300,
+    },
+];
+
+export const rows = [
+    {
+        id: 1,
+        user: 'Jon Snow',
+        email: 'js@test.com',
+        orders: 35,
+        spent: '$212',
+        location: 'Miami',
+    },
+    {
+        id: 2,
+        user: 'Cersei Lannister',
+        email: 'cl@test.com',
+        orders: 42,
+        spent: '$435',
+        location: 'Beverly',
+    },
+    {
+        id: 3,
+        user: 'Jaime Lannister',
+        email: 'jl@test.com',
+        orders: 45,
+        spent: '$32',
+        location: 'Houston',
+    },
+    {
+        id: 4,
+        user: 'Arya Stark',
+        email: 'as@test.com',
+        orders: 16,
+        spent: '$212',
+        location: 'Delaware',
+    },
+    {
+        id: 5,
+        user: 'Daenerys Targaryen',
+        email: 'dt@test.com',
+        orders: null,
+        spent: null,
+        location: 'Miami',
+    },
+    {
+        id: 6,
+        user: 'Melisandre',
+        email: 'm@test.com',
+        orders: 150,
+        spent: '$6532',
+        location: 'California',
+    },
+    {
+        id: 7,
+        user: 'Ferrara Clifford',
+        email: 'fc@test.com',
+        orders: 44,
+        spent: '$321',
+        location: 'New York City',
+    },
+    {
+        id: 8,
+        user: 'Rossini Frances',
+        email: 'rf@test.com',
+        orders: 36,
+        spent: '$764',
+        location: 'San Fransico',
+    },
+    {
+        id: 9,
+        user: 'Harvey Roxie',
+        email: 'hr@test.com',
+        orders: 65,
+        spent: '$483',
+        location: 'Las Vegas',
+    },
+];

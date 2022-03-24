@@ -1,0 +1,40 @@
+.smallCard {
+    flex: 1;
+    margin: 1rem 1.5rem;
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.3);
+    background-color: white;
+}
+
+.smallList {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.smallTitle {
+    margin-top: 0;
+}
+
+.smallListItem {
+    display: flex;
+    align-items: center;
+    margin: 1rem;
+}
+
+.smallUser {
+    display: flex;
+    flex-direction: column;
+    margin-left: 1rem;
+}
+
+.userTitle {
+    color: grey;
+}
+
+.smallListItem:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    z-index: 2;
+}

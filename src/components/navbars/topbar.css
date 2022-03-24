@@ -1,0 +1,72 @@
+.topbarNav {
+    width: 100%;
+    height: 3rem;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: white;
+}
+
+.topbarWrapper {
+    height: 100%;
+    padding: 0rem 1.25rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.topbarLeft {
+    position: relative;
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 2rem;
+    color: rgb(88, 151, 223);
+    cursor: pointer;
+}
+
+.topbarSearch {
+    width: 35%;
+    margin-left: 4rem;
+    border-radius: 10px;
+    border: none;
+    font-size: 1.5rem;
+    background-color: rgb(235, 235, 235);
+}
+
+.searchIcon {
+    position: absolute;
+    right: 25%;
+    top: 0.6rem;
+}
+
+.topbarRight {
+    display: flex;
+    align-items: center;
+}
+
+.topbarIcon {
+    position: relative;
+}
+
+.topbarIcon:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    z-index: 2;
+}
+
+.notificationNumber {
+    position: absolute;
+    background-color: rgb(255, 87, 87);
+    top: -0.5rem;
+    right: 0.75rem;
+    border-radius: 50%;
+    width: 0.8rem;
+    height: 0.8rem;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.7rem;
+}

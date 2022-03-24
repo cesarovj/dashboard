@@ -1,0 +1,10 @@
+.dashboardPage {
+    flex: 4;
+    background-color: rgb(235, 235, 235);
+    border-radius: 10px;
+}
+
+.dashboardCards {
+    display: flex;
+    margin: 1.5rem;
+}

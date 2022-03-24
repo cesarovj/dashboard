@@ -1,0 +1,65 @@
+.featured {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.featuredItem {
+    margin: 1rem 3rem;
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.3);
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    background-color: white;
+    transition: ease-out 0.2s;
+    box-shadow: inset 0 0 0 0 rgb(88, 151, 223);
+}
+
+.featuredItem:hover {
+    cursor: pointer;
+    color: white;
+    box-shadow: inset 500px 0 0 0 rgb(88, 151, 223);
+}
+
+.featuredTitle {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.featuredValues {
+    margin-top: 0.5rem;
+    display: flex;
+    align-items: center;
+}
+
+.featuredNumber {
+    font-weight: lighter;
+    font-size: 1.5rem;
+}
+
+.featuredRate {
+    color: grey;
+    display: flex;
+    align-items: center;
+    margin-left: 1.25rem;
+}
+
+.arrowsUp,
+.arrowsDown {
+    font-size: 1.25rem;
+    align-items: center;
+}
+
+.arrowsUp {
+    color: lightgreen;
+}
+
+.arrowsDown {
+    color: rgb(255, 87, 87);
+}
+
+.featuredIcons {
+    margin-left: 2rem;
+}

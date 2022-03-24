@@ -1,0 +1,54 @@
+.largeCard {
+    flex: 2;
+    margin: 1rem 1.5rem;
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.3);
+    background-color: white;
+}
+
+.largeTitle {
+    margin-top: 0;
+}
+
+.largeTable {
+    margin-top: -1rem;
+    width: 100%;
+    border-spacing: 1.25rem;
+}
+
+.largeTh {
+    text-align: left;
+}
+
+.largeBtn {
+    padding: 0.35rem 0.5rem;
+    border: none;
+    border-radius: 10px;
+}
+
+.largeBtn.Pending {
+    background-color: rgb(253, 229, 183);
+    color: orange;
+}
+
+.largeBtn.Shipping {
+    background-color: rgb(88, 151, 223);
+    color: blue;
+}
+
+.largeBtn.Refund {
+    background-color: rgb(255, 132, 132);
+    color: red;
+}
+
+.largeBtn.Paid {
+    background-color: lightgreen;
+    color: green;
+}
+
+.largeTrUser:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    z-index: 2;
+}
